@@ -11,6 +11,7 @@
   inputs.src-fastcgi-master.ref   = "refs/heads/master";
   inputs.src-fastcgi-master.owner = "ba0f3";
   inputs.src-fastcgi-master.repo  = "fastcgi.nim";
+  inputs.src-fastcgi-master.dir   = "";
   inputs.src-fastcgi-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

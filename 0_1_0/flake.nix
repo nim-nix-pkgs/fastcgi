@@ -11,6 +11,7 @@
   inputs.src-fastcgi-0_1_0.ref   = "refs/tags/0.1.0";
   inputs.src-fastcgi-0_1_0.owner = "ba0f3";
   inputs.src-fastcgi-0_1_0.repo  = "fastcgi.nim";
+  inputs.src-fastcgi-0_1_0.dir   = "";
   inputs.src-fastcgi-0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
